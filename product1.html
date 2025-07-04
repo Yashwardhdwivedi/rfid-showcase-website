@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contactless Card Reader - Woodduck</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      background-color: #0e141b;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    header {
+      background: #121212;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h2 {
+      color: #61a5ff;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #61a5ff;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #1c2431;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .container img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+
+    ul {
+      margin: 1rem 0;
+      padding-left: 1.2rem;
+    }
+
+    .review-section {
+      margin-top: 2rem;
+      border-top: 1px solid #444;
+      padding-top: 1.5rem;
+    }
+
+    .review {
+      background: #2a2f38;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 1.5rem;
+      color: #61a5ff;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Woodduck</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <img src="images/card-reader.png" alt="Card Reader">
+    <h1>Contactless Card Reader</h1>
+    <p>SCR10 – For Aadhaar, digital ID & secure authentication.</p>
+
+    <h2>Specifications:</h2>
+    <ul>
+      <li>Interface: USB 2.0</li>
+      <li>Supported Cards: MIFARE, NFC</li>
+      <li>Read Range: Up to 10 cm</li>
+      <li>Data Transfer Rate: 106 kbps</li>
+      <li>OS Support: Windows, Linux, Android</li>
+      <li>Power Consumption: Low Power Mode</li>
+    </ul>
+
+    <div class="review-section">
+      <h2>Customer Reviews</h2>
+      <div class="review">
+        <strong>Aarav S.</strong>
+        <p>Perfect for Aadhaar-based authentication. Worked seamlessly with our backend software.</p>
+      </div>
+      <div class="review">
+        <strong>Sneha R.</strong>
+        <p>Easy to install and fast detection. Highly recommended for secure entry systems.</p>
+      </div>
+    </div>
+
+    <a class="back-link" href="products.html">&larr; Back to Products</a>
+  </div>
+</body>
+
+</html>

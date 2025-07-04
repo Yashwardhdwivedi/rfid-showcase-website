@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Library RFID Gate - Woodduck</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      background-color: #0e141b;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    header {
+      background: #121212;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h2 {
+      color: #61a5ff;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #61a5ff;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #1c2431;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .container img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+
+    ul {
+      margin: 1rem 0;
+      padding-left: 1.2rem;
+    }
+
+    .review-section {
+      margin-top: 2rem;
+      border-top: 1px solid #444;
+      padding-top: 1.5rem;
+    }
+
+    .review {
+      background: #2a2f38;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 1.5rem;
+      color: #61a5ff;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Woodduck</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <img src="images/library-gate.png" alt="Library RFID Gate">
+    <h1>Library RFID Gate</h1>
+    <p>LIBG01 – Monitors book movement in public libraries.</p>
+
+    <h2>Specifications:</h2>
+    <ul>
+      <li>Frequency: 13.56 MHz (HF)</li>
+      <li>Detection Distance: 90–120 cm</li>
+      <li>Supported Tags: ISO 15693 & ISO 18000-3</li>
+      <li>Alarm: Audio/Visual Alerts</li>
+      <li>Power Supply: AC 220V ±10%</li>
+      <li>Application: Library security and item monitoring</li>
+    </ul>
+
+    <div class="review-section">
+      <h2>Customer Reviews</h2>
+      <div class="review">
+        <strong>Ritika A.</strong>
+        <p>Installation was simple and it works flawlessly with our library system.</p>
+      </div>
+      <div class="review">
+        <strong>Manoj K.</strong>
+        <p>Great product for preventing unauthorized book removals. Very reliable.</p>
+      </div>
+    </div>
+
+    <a class="back-link" href="products.html">&larr; Back to Products</a>
+  </div>
+</body>
+
+</html>
